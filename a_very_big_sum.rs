@@ -1,3 +1,6 @@
+// problem link:
+// https://www.hackerrank.com/challenges/a-very-big-sum/problem
+
 use std::env;
 use std::fs::File;
 use std::io::{self, BufRead, Write};
@@ -10,13 +13,13 @@ use std::io::{self, BufRead, Write};
  */
 
 fn aVeryBigSum(ar: &[i64]) -> i64 {
-    let mut ans: i64 = 0;
+    let mut result: i64 = 0;
 
     for i in ar {
-        ans += i;
+        result += i;
     }
 
-    ans
+    return result;
 }
 
 fn main() {
